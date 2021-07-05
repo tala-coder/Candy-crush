@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package GUI;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+/**
+ * @author Muhammed
+ *
+ */
+public class IgrajCandy {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		JFrame jf = new JFrame("Candy Crush");
+		jf.setSize(600,800);
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		jf.setContentPane(new JPanel());
+		jf.setVisible(true);
+		
+
+	}
+
+}

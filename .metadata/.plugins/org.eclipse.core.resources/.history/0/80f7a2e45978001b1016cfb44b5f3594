@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package GUI;
+
+import javax.swing.JPanel;
+
+/**
+ * @author User
+ *
+ */
+public class MojPanel extends JPanel {
+
+}

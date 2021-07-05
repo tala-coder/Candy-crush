@@ -1,0 +1,14 @@
+-Cilj Igre je odigrati više 'pametnih' poteza, a 'pemetni' potez je potez
+u kojem se desi više podudaranja od tri polja.
+
+-Igrac moze da bira samo susjedno (vertikalno ili horizontalno) polje (bez obzira da li nakon tog poteza slijedi podudaranje).
+
+-Igrac ima 5 poteza u prvom levelu, u svakom narednom levelu broj poteza se povecava za jedan
+
+-Broj polja koja se brisu nakon podudaranja, je jednak broju bodova. (min 3 boda)
+
+-Cilj u prvom levelu je 20 bodova, u svakom narednom levelu se povecava za 5 bodova. 
+
+
+
+

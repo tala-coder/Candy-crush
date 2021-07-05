@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package GUI;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.LayoutManager;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+import Logika.CandyCrush;
+
+/**
+ * @author Muhammed 
+ *
+ */
+public class MojPanel extends JPanel {
+	CandyCrush candy;
+	JPanel prikazTabele;
+	JButton[][] tabelaDugmadi; 
+
+	public MojPanel(int brojRedova, int brojKolona, int brojPoteza) {
+		super();
+		candy = new CandyCrush(brojRedova, brojKolona, brojPoteza);
+		setLayout(new BorderLayout()  );
+		prikazTabele = new JPanel();
+		add(prikazTabele, BorderLayout.CENTER); 
+		//prikazTabele.setLayout(new GridLayout(candy.uzmiMatricu().length, candy.uzmiMatricu()[0].length));
+		prikazTabele.setLayout(new GridLayout(brojRedova, brojKolona));
+		tabelaDugmadi = new JButton[brojRedova][brojKolona];
+		
+		for (int i = tabelaDugmadi.length - 1; i >= 0; i--) {
+			for (int j = 0; j < tabelaDugmadi[i].length; j++) {
+				JButton dugme = new JButton("" + i + "," + j + "->" + candy.uzmiMatricu()[i][j]);
+				prikazTabele.add(dugme);
+				//dugme.setBackground(getBoja(candy.uzmiMatricu()[i][j]));
+			}
+		}
+	}
+	
+}
