@@ -10,7 +10,3 @@
 <br> <br>
 ## GUI
 ![GUI](https://user-images.githubusercontent.com/59321839/124522890-083eee00-ddf5-11eb-8074-c2c4f973c338.gif)
-
-
-
-
